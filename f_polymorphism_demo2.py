@@ -3,8 +3,7 @@
 import f_animals as animals
 
 def main():
-    # Create an Mammal object, a Dog object, and
-    # a Cat object.
+    # Create an Mammal object, a Dog object, and a Cat object.
     mammal = animals.Mammal('regular animal')
     dog = animals.Dog()
     cat = animals.Cat()
@@ -21,9 +20,7 @@ def main():
     print()
     show_mammal_info('I am a string')
 
-# The show_mammal_info function accepts an object
-# as an argument, and calls its show_species
-# and make_sound methods.
+# The show_mammal_info function accepts an object as an argument, and calls its show_species and make_sound methods.
 
 def show_mammal_info(creature):
     if isinstance(creature, animals.Mammal):

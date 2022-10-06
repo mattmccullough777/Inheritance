@@ -1,5 +1,5 @@
 
-class Athlete:
+class Athlete: #superclass
     def __init__(self,ht,wt,bodyfat):
         self.__ht = ht
         self.__wt = wt
@@ -16,7 +16,7 @@ class Athlete:
 
 
 
-class Football_Player(Athlete):
+class Football_Player(Athlete): #subclass
 
     def __init__(self,ht,wt,bodyfat,position,team):
 
